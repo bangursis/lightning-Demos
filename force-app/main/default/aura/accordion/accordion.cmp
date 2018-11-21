@@ -5,6 +5,10 @@
                 <p>Demo</p>
                 <lightning:input label="input"/>
             </lightning:accordionSection>
+            <lightning:accordionSection name="B" label="label B" >
+                <p>Demo B</p>
+                <lightning:input label="input"/>
+            </lightning:accordionSection>
         </lightning:accordion>
     </lightning:card>
 </aura:component>	
