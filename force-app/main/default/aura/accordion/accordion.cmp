@@ -1,6 +1,6 @@
 <aura:component implements="flexipage:availableForAllPageTypes">
     <lightning:card title="Accordion demo">
-        <lightning:accordion>
+        <lightning:accordion allowMultipleSectionsOpen="true" activeSectionName="">
             <lightning:accordionSection name="A" label="label A" >
                 <p>Demo</p>
                 <lightning:input label="input"/>
